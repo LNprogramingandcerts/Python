@@ -44,3 +44,14 @@ print("""THe pet shop owner said "No, no, 'e's' uh,... he's resting" """)
 Python Result:
 The pet shop owner said"No,no, 'e's' uh,... he's resting"
 THe pet shop owner said "No, no, 'e's' uh,... he's resting" 
+
+
+Understanding More about Python Exercises:
+Write the following program that will produce the following output.
+Number1 The Larch
+Number2 The Horse Chestnut
+
+Python Code:
+print("Number1\tThe Larch")
+print("Number2\t The Horse Chestnut")
+
