@@ -1,0 +1,46 @@
+Make use of the spiltString and tabString characters
+ Python Code:
+ splitString = "This string has been \nsplit over\nseveral\nlines"
+print(splitString)
+
+tabbedString = "1\t2\t3\t4\t5\t"
+print(tabbedString)
+
+Python Results:
+
+This string has been 
+split over
+several
+lines
+1	2	3	4	5	
+
+Making use of single quotes and double quotes in the same code
+Python:Code
+print('The pet shop owner said "No, no, \'e\'s uh,...he\s ressting"' )
+print("The pet shop owner said \"No, no, 'e's uh,... he's resting\"")
+
+Python: Results
+The pet shop owner said "No, no, 'e's uh,...he\s ressting"
+The pet shop owner said "No, no, 'e's uh,... he's resting"
+
+splitting string without using slashes in the code
+
+Python:Code
+anotherSplitString = """This string has been
+split over
+several lines"""
+print(anotherSplitString)
+
+Python:Result
+This string has been
+split over
+several lines
+
+Using triple single and double quotes in a code
+Python Code:
+print('''The pet shop owner said"No,no, 'e's' uh,... he's resting"''')
+print("""THe pet shop owner said "No, no, 'e's' uh,... he's resting" """)
+
+Python Result:
+The pet shop owner said"No,no, 'e's' uh,... he's resting"
+THe pet shop owner said "No, no, 'e's' uh,... he's resting" 
