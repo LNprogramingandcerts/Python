@@ -1,0 +1,17 @@
+Storing strings into different variables
+
+Python Code:
+greeting = "Bruce"
+_myName = 'Tim'
+Tim45 = "Good"
+Tim_Was_57 = "Hello"
+Greeting = "There"
+print(Tim_Was_57 +' ' + greeting)
+
+Errors with printing strings with integers
+Python Code:
+age = 24
+print(age)
+
+print(greeting + age)
+
