@@ -1,0 +1,44 @@
+Intro video to basic of python using print code
+
+Python:
+print('Hello, World!')
+print(1+2)
+print(7*6)
+print()
+print("The End")
+print("Python's strings are easy to use")
+print('We can even include "quotes" in strings')
+print("hello" + "world")
+greeting = "Hello"
+name = "Bruce"
+print(greeting + name)
+#if we want a space, we can add that too
+print(greeting + ' ' + name)
+
+Results:
+C:\Users\Kane\venv\Python3.6\Scripts\python.exe C:/Users/Kane/.IdeaIC2018.1/config/scratches/HelloWorld.py
+Hello, World!
+3
+42
+
+The End
+Python's strings are easy to use
+We can even include "quotes" in strings
+helloworld
+HelloBruce
+Hello Bruce
+
+Process finished with exit code 0
+
+Getting to know Python exercise:
+Write the code to print out the string
+
+My hovercraft is full of eels
+
+Python code:
+print("My hovercraft is full of eels")
+
+Write program to print the answer to the calculations 6 times 7
+
+Python code:
+print(6*7)
