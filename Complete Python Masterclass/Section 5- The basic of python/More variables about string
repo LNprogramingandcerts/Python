@@ -1,0 +1,24 @@
+Working with strings:
+Python:
+
+parrot = "Norwegian Blue"
+print(parrot)
+print(parrot[0])
+print(parrot[3])
+print(parrot[-1])
+print(parrot[0:6])
+
+Results:
+C:\Users\Kane\venv\Python3.6\Scripts\python.exe C:/Users/Kane/.IdeaIC2018.1/config/scratches/Variables.py
+Norwegian Blue
+N
+w
+e
+Norweg
+
+Using the finding fuction in python
+today = "friday"
+print("day" in today)
+print("fri" in today)
+print("thur" in today)
+print("parrot" in fjord)
