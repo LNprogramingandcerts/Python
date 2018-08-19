@@ -1,3 +1,5 @@
+Tuples are sequences that cannot be changed
+
 # # t = 'a','b','c'
 # # print(t)
 # #
