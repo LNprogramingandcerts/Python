@@ -1,1 +1,31 @@
+# # t = 'a','b','c'
+# # print(t)
+# #
+# # print("a","b","c")
+# # print(("a","b","c"))
+#
+#
+# welcome  =  "Welcome to my Nightmare", "Alice Cooper", 1975
+# bad = "Bad Company" "Bad Company", 1974
+# metallica = "Ride the Lightnining", "Metallica", 1984
+#
+# print(metallica)
+# print(metallica[0])
+#
+# # # metallica[0] = "Master of puppets"
+# # imelda = imelda[0], "Imelda May", imelda[2]
+# # print(imelda)
+#
+# metallica2 = ["Ride the Lightning", "Metallica", 1984]
+# print(metallica2)
+# metallica2[0] = "Master of puppets"
+# print(metallica2)
 
+
+a = b = c = d = 12
+print(c)
+a, b = 12, 13
+print(a, b)
+a, b = b, a
+print("a is {}". format(a))
+print("b is {}". format(b))
