@@ -1,0 +1,41 @@
+discard and remove difference that remove with show trip error
+
+
+even = set(range(0,40,2))
+print(sorted(even))
+squares_tuple = (4,6,9,16,25)
+squares = set(squares_tuple)
+# print(sorted(squares))
+
+# print("symetric even minus squares")
+# print(sorted(even.symmetric_difference(squares)))
+# print("symmetric squares minus even")
+# print(squares.symmetric_difference(even))
+
+squares.discard(4)
+squares.discard(16)
+squares.discard(8)
+print(squares)
+if 8 in squares:
+    squares.remove(8)
+    
+    Sentence = "why can we just get along"
+
+
+# even = set(range(0,40,2))
+# print(sorted(even))
+# squares_tuple = (4,6,9,16,25)
+# squares = set(squares_tuple)
+# print(squares)
+#
+# if(squares.issubset(even)):
+#     print("squares is a subset of even")
+# if even.issuperset(squares):
+#     print("even is a superset of squares")
+
+
+vowels = frozenset("aeiou")
+finalSet =set(Sentence).difference(vowels)
+print(finalSet)
+finalList = sorted(finalSet)
+print(finalSet)
