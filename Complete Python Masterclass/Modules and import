@@ -1,0 +1,25 @@
+make use of turle
+
+# from turtle import forward, right, circle, done
+#
+#
+# forward(150)
+# right(250)
+# forward(150)
+# circle(75)
+# circle(55)
+# done()
+
+
+from turtle import *
+done = "Well done, you have finished your drawing"
+
+
+
+forward(145)
+right(344)
+forward(34)
+circle(233)
+
+done()
+print(done)
