@@ -1,0 +1,14 @@
+scopes are programs in canvas in python
+for debuging your program
+
+
+C:\Users\Kane\venv\Python3.6\Scripts\python.exe C:/Users/Kane/.IdeaIC2018.1/config/scratches/parrabola.py
+<tkinter.Canvas object .!canvas> <tkinter.Canvas object .!canvas2>
+{'y_origin': 242.0, 'x_origin': 162.0, 'canvas': <tkinter.Canvas object .!canvas>}
+{'y_origin': 242.0, 'x_origin': 162.0, 'canvas': <tkinter.Canvas object .!canvas2>}
+
+Process finished with exit code 0
+
+print(repr(canvas), repr(canvas2))
+
+ print(locals())
