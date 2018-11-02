@@ -1,0 +1,61 @@
+class Song:
+
+    """Class to request a song
+    
+    Attributes:
+        title(str): The title of the song
+        artist (Artist): An artist object representing teh songs creator.
+        duration (int): The duration of the song in seconds. May be zero
+        """
+    def __init__(self, title,artist, duration=0):
+        Song.__init__.__doc__=  """Song init method
+        Args:
+            title (str): Initailises the 'tilte' attribute
+            artist (Artist): At Artist object representing the song's creator.
+            duration (Optional (int): INital value for the duration attribute
+            Will default to zero if not specified."""
+
+        self.title = title
+        self.artist = artist
+        self.duration = duration
+
+# help(Song.__init__)
+print(Song.__doc__)
+print(Song.__init__.__doc__)
+
+class Album:
+    """ Class to represent an Album, using it's track list
+    Attributes:
+        album_name(str): The name of the album.
+        year(int): The year was album was released.
+        artist: (Artist): The artist responsible for the album.
+            If no specifed, the artist will default to an artist with the name " Various Artisits".
+            tracks (List(Song)): A list of the songs on the album.
+
+    Methods:
+        addSOng; USed to add a new song to the album's track list.
+    """
+
+    def __init__(self, name, year, artist=None):
+        self.name = name
+        self.year = year
+        if artist is None:
+            self.artist = Artist("Various Artist")
+        else:
+            self.artist = artist
+
+        self.tracks = []
+
+    def add_song(self, song, position=None):
+
+        """Adds a song to the track list
+        Args:
+        song(Song): A song to add.
+        positon (Optional[init]): If specified, the song will be added to that position
+        in the track list - inserting it between others songs if necessary.
+
+        """
+        if position is None:
+            self.tracks.append(song)
+        else:
+            self.tracks.insert(position,song)
